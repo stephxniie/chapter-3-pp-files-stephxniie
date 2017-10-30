@@ -1,0 +1,38 @@
+/*******************************************************************************
+ * Stephanie Sanchez
+ * 09/25/17
+ * 3.1 Practice
+*******************************************************************************/
+import java.text.NumberFormat;
+import java.util.Scanner;
+
+public class Integers 
+{
+    public static void main(String args[])
+    {
+        Scanner keyboard = new Scanner (System.in);
+        System.out.print ("Enter value for a: ");
+        int a = keyboard.nextInt();
+        System.out.println();
+        
+        System.out.print ("Enter value for b: ");
+        int b = keyboard.nextInt();
+        System.out.println();
+        
+        if (a > b)
+        {
+            System.out.println ("Since a is greater, b attacks and swaps values.");
+            System.out.println ("\nNew a: " + b);
+            System.out.print ("\nNew b: " + a);
+        }//End if statement 
+        else
+        {
+            System.out.print ("b is greater, b wins!");
+        }
+        
+    }//End method
+    
+}//End class
+
+
+
